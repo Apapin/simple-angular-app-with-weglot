@@ -103,6 +103,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/customer-app-angular-example",
+            "netlifyToken": "naC0zVC4ULWlc_O4VpubHiwws5bCOA8A01Z1f1RQr60",
+            "siteId": "e21563b3-da9e-4d58-ba4b-f8d5704b87dd"
+          }
         }
       }
     }
